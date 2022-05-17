@@ -4,7 +4,7 @@ include 'func.php'; // Функции
 header('Content-Type: text/html; charset=utf-8'); // на всякий случай досообщим PHP, что все в кодировке UTF-8
 
 $site_dir = dirname(dirname(__FILE__)).'/'; // корень сайта
-$bot_token = '5161828494:AAG6goxCShQJNLMz5b9bY74ccNT4xNACCx4'; // токен бота
+$bot_token = 'TOKEN'; // токен бота
 $data = json_decode(file_get_contents('php://input'), true); // весь ввод перенаправляем в $data и декодируем json-закодированные-текстовые данные в PHP-массив
 
 // =============================================
